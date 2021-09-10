@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; box-sizing: border-box;font-family: 'Josefin Sans', sans-serif;}
+.category div{
+width:25%;
+padding: 53px;
+}
+
+@media only screen and (max-width:1199px){
+	.category div{
+padding: 23px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.category div{
+padding: 23px;
+}
+.profile-name{padding: 8px!important;}
+}
